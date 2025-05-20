@@ -4,4 +4,4 @@ numpy
 scikit-learn
 scipy
 joblib
-surprise
+scikit-surprise
