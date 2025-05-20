@@ -1,6 +1,4 @@
 # app.py
-import sklearn
-print("scikit-learn version:", sklearn.version)
 import streamlit as st
 from preprocessing import load_data, preprocess_data
 from content_based import ContentBasedRecommender
