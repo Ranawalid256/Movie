@@ -7,7 +7,7 @@ from hybrid_engine import HybridRecommender
 from utils import get_unseen_movies
 
 # Load and preprocess data
-ratings, movies = load_data('C:/Lab(2)IP/ratings.csv', 'C:/Lab(2)IP/movies.csv')
+ratings, movies = load_data('ratings.csv', 'movies.csv')
 data = preprocess_data(ratings, movies)
 
 # Initialize models
